@@ -1,0 +1,66 @@
+:root {
+    --background: #000;
+    --forground: #f2f2f3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--forground);
+}
+
+.navbar {
+    transition: background-color .2s ease-in-out;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.form-label {
+    font-weight: 300;
+}
+
+/* DESTACADOS */
+#destacados {
+    position: relative;
+}
+
+#fullscreen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
+
+/* UTILIDADES */
+.moved-nav {
+    background-color: var(--background);
+}
+
+@media(hover:hover) {
+    #fullscreen {
+        cursor: pointer;
+    }
+
+    /* CARD  */
+    .card-img-top {
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 992px) {
+    .navbar {
+        position: sticky;
+        background-color: var(--background);
+    }
+}
