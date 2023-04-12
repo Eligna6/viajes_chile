@@ -24,7 +24,6 @@ h2 {
     font-weight: 300;
 }
 
-/* DESTACADOS */
 #destacados {
     position: relative;
 }
@@ -42,7 +41,6 @@ h2 {
     z-index: 2;
 }
 
-/* UTILIDADES */
 .moved-nav {
     background-color: var(--background);
 }
@@ -52,7 +50,6 @@ h2 {
         cursor: pointer;
     }
 
-    /* CARD  */
     .card-img-top {
         cursor: pointer;
     }
